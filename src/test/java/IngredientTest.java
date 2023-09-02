@@ -6,7 +6,7 @@ import praktikum.Ingredient;
 import praktikum.IngredientType;
 @RunWith(Parameterized.class)
 
-public class Ingredient_Test {
+public class IngredientTest {
 
     private final IngredientType type;
     private final String name;
@@ -20,7 +20,7 @@ public class Ingredient_Test {
     private final float expectedPrice;
 
 
-    public Ingredient_Test(IngredientType type,String name,float price, IngredientType expectedType, String expectedName, float expectedPrice){
+    public IngredientTest(IngredientType type, String name, float price, IngredientType expectedType, String expectedName, float expectedPrice){
         this.type = type;
         this.name = name;
         this.price = price;

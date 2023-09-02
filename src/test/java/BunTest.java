@@ -3,11 +3,10 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import praktikum.Bun;
-import praktikum.IngredientType;
 
 @RunWith(Parameterized.class)
 
-public class Bun_Test {
+public class BunTest {
 
     private final String name;
 
@@ -18,7 +17,7 @@ public class Bun_Test {
     private final float expectedPrice;
 
 
-    public Bun_Test(String name,float price, String expectedName, float expectedPrice){
+    public BunTest(String name, float price, String expectedName, float expectedPrice){
         this.name = name;
         this.price = price;
         this.expectedName = expectedName;

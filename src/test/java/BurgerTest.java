@@ -1,4 +1,3 @@
-import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
@@ -11,7 +10,7 @@ import praktikum.Burger;
 import praktikum.Ingredient;
 import praktikum.IngredientType;
 
-public class Burger_Test {
+public class BurgerTest {
 
     @Rule
     public MockitoRule mockitoRule = MockitoJUnit.rule();
